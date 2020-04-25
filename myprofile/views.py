@@ -11,6 +11,6 @@ def index(request):
 	proj = Project.objects.all()
 	conta = Contact.objects.all()
 
-	return render(request,'index.html', {'edu': eduo,'exp': expo, 'skills': skill, 'certif': certi, 'pro': proj, 'conts': conta})
+	return render(request,'index.html', {'edu': eduo,'exp': expo, 'skills': skill, 'certif': certi, 'pro': proj, 'cont': conta})
 
 # Create your views here.
