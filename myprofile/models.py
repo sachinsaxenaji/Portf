@@ -23,7 +23,7 @@ class Skills(models.Model):
 	
 class Certificate(models.Model):
 	
-	name = models.CharField(max_length=100)
+	name = models.CharField(max_length=50)
 	duration = models.CharField(max_length=100)
 	company = models.CharField(max_length=100)
 	desc= models.TextField()	
